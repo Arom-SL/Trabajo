@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoReMInstrumento</title>
+    <!-- Hojas de estilos -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <!-- <link rel="stylesheet" href="css/nav-marcas-css"> -->
+    <!-- Fuente Google Apis -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Iconos Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- Iconos Fonts Awesome-->
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.0/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/Bootstrap/4.5.0/css/Bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+</head>
+<body>
+    <!-- Barra superior del proyecto -->
+<header>
+    <a href="/index.html"><h2>DOREMInstrumento</h2></a>
+    <div class="buscador">
+        <input type="search" placeholder="Buscar">
+        <i class="bi bi-search input-icon"></i>
+    </div>
+    <a href="views/carrito/main.html" class="enlace-carrito"><i class="bi bi-cart3"></i></a>
+</header>
+    <!-- Barra de navegación -->
+<nav class="barra-navegacion">
+    <ul>
+        <li><a class="nav-active">Inicio</a></li>
+        <li><a href="views/categorias/main.html">Categorías</a></li>
+        <li><a href="views/servicios/main.html">Servicios</a></li>
+        <li><a href="views/distribuidores/main.html">Distribuidores</a></li>
+        <li><a href="views/contacto/main.html">Contáctanos</a></li>
+    </ul> 
+</nav>
+
+    <!-- Contenido Principal -->
+<main class="contenedor">
+    <!-- Carousel -->
+    <div id="carusel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/promociones/banner1.webp" alt="banner1" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="img/promociones/banner2.webp" alt="banner2" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="img/promociones/banner3.webp" alt="banner3" class="d-block w-100">
+        </div>
+      </div>
+      <!-- Left and right controls/icons -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carusel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carusel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+    <div id="marcas">
+        <h1 class="titulo-seccion ">Nuestras Marcas</h1>
+        <section class="partners-logos slider">
+            <div class="slide"><img src="img/logos-marcas\logo01-akai.png"></div>
+            <div class="slide"><img src="img/logos-marcas\logo02-akg.png"></div>
+            <div class="slide"><img src="img/logos-marcas\logo03-angel.png"></div>
+            <div class="slide"><img src="img/logos-marcas\logo04-arturia.png"></div>
+            <div class="slide"><img src="img/logos-marcas\logo05-behringer.png"></div>
+            <div class="slide"><img src="img/logos-marcas\logo06-beyerdynamic.png"></div>
+            <div class="slide"><img src="img/logos-marcas\logo07-bugera.png"></div>
+            <div class="slide"><img src="img/logos-marcas\logo08-cort.png"></div>
+            <div class="slide"><img src="img/logos-marcas\logo09-digitech.png"></div>
+            <div class="slide"><img src="img/logos-marcas\logo10-epiphone.png"></div>
+            <div class="slide"><img src="img/logos-marcas\logo11-gretsch.png"></div>
+            <div class="slide"><img src="img/logos-marcas\logo12-ibanez.png"></div>
+            <div class="slide"><img src="img/logos-marcas\logo13-jbl.png"></div>
+            <div class="slide"><img src="img/logos-marcas\logo14-kala.png"></div>
+            <div class="slide"><img src="img/logos-marcas\logo15-cort.png"></div>
+            <div class="slide"><img src="img/logos-marcas\logo16-marshall.png"></div>
+            <div class="slide"><img src="img/logos-marcas\logo17-orange.png"></div>
+            <div class="slide"><img src="img/logos-marcas\logo18-pionner.png"></div>
+            <div class="slide"><img src="img/logos-marcas\logo19-rode.png"></div>
+            <div class="slide"><img src="img/logos-marcas\logo20-yamaha.png"></div>
+        </section>
+    </div>
+    <section id="categorias">
+        <h1 class="titulo-seccion">Categorías</h1>
+        <div class="categorias-iconos">
+            <a href="#"><i class="fa-duotone fa-guitars"></i>
+                <span>Guitarras</span>
+            </a>
+            <a href="#"><i class="fa-duotone fa-guitar"></i>
+                <span>Ukeleles</span>
+            </a>
+            <a href="#"><i class="fa-duotone fa-guitar-electric"></i>
+                <span>Bajos</span>
+            </a>
+            <a href="#"><i class="fa-duotone fa-amp-guitar"></i>
+                <span>Amplificadores</span>
+            </a>
+            <a href="#"><i class="fa-duotone fa-drum"></i>
+                <span>Percusión</span>
+            </a>
+            <a href="#"><i class="fa-regular fa-speaker"></i>
+                <span>Pedaleras</span>
+            </a>
+            <a href="#"><i class="fa-regular fa-volume-off"></i>
+                <span>Parlantes</span>
+            </a>
+            <a href="#"><i class="fa-solid fa-microphone-lines"></i>
+                <span>Micrófonos</span>
+            </a>
+            <a href="#"><i class="fa-duotone fa-saxophone"></i>
+                <span>Saxofones</span>
+            </a>
+            <a href="#"><i class="fa-regular fa-disc-drive"></i>
+                <span>DJ's</span>
+            </a>
+            <a href="#"><i class="fa-regular fa-tv-music"></i>
+                <span>Accesorios</span>
+            </a>
+            <a href="#"><i class="fa-duotone fa-violin"></i>
+                <span>Violines</span>
+            </a>
+            <a href="#"><i class="fa-solid fa-piano-keyboard"></i>
+                <span>Teclados</span>
+            </a>
+        </div>
+    </section>
+    
+</main>
+    <!-- Footer -->
+<footer>
+  <div id="footerNumeros">
+    <ul class="lista-numeros">
+        <li>Atención al Cliente</li>
+        <li>+51 999 999 999</li>
+        <li>Compras por Teléfono</li>
+        <li>+51 999 999 888</li>
+        <li>Servicio Técnico</li>
+        <li>+51 999 999 777</li>
+    </ul>
+  </div>
+  <div id="footerLocalizacion">
+    <h4>¿Donde estámos ubicados?</h4>
+      <iframe class="footer-mapa"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15847.670333703954!2d-79.84950453042983!3d-6.779884833906449!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x904cef2f9b358d75%3A0x9b07b4e9c60e7223!2sPaseo%20de%20Las%20Musas!5e0!3m2!1ses!2spe!4v1661812376762!5m2!1ses!2spe"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+  </div>
+  <div id="footerIntegrantes">
+    <h5>Integrantes del grupo:</h5>
+    <ul class="lista-integrantes">
+        <li>Sihomara Sandy Ochoa Cisneros</li>
+        <li>Condori Lima Mijayl Ramon</li>
+        <li>Llica García Jesusamado</li>
+        <li>Sandoval Litano Erick Arom</li>
+        <li>Villalta Delgado Victor Agustín</li>
+    </ul>
+  </div>
+  <div id="footerRedes">
+    <div class="footer-iconos">
+        <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.youtube.com/" target="_blank"><i class="bi bi-youtube"></i></a>  
+    </div>
+    <p>2022 - Todos los derechos Reservados</p>
+  </div>
+</footer>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/efecto-marcas.js"></script>
+</body>
+</html>
